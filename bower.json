@@ -1,0 +1,26 @@
+{
+  "name": "angular-ui-droppable",
+  "version": "0.0.1",
+  "description": "This directive allows you to use jQueryUI Droppable. This can be used to angular-ui-sortable!",
+  "author": "https://github.com/kryo2k/angular-ui-droppable/graphs/contributors",
+  "license": "MIT",
+  "homepage": "https://github.com/kryo2k/angular-ui-droppable",
+  "main": "./src/droppable.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test*",
+    "demo*",
+    "gruntFile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.0.x",
+    "jquery-ui": ">= 1.9"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.0.x",
+    "jquery-simulate": "latest"
+  }
+}
